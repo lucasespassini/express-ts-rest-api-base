@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import router from './app/routes'
+import router from './modules/routes/routes'
 
 export class App {
   public server: express.Application
